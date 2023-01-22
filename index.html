@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Derékszögű háromszög</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><b>Derkészögű háromszög oldalhosszai</b></legend>
+            <label for="ebef">egyik befogó: </label> <input type="text" name="elso_befogo" id="ebef"><br>
+            <label for="mabef">másik befogó: </label> <input type="text" name="masodik_befogo" id="mabef"><br>
+            <label for="atfogo">átfogó: </label> <input type="text" name="atfog" id="atfogo"><br>           
+            <hr>
+            <button onclick="Megszerkeztheto()" type="button">Megszerkezthető?</button>
+            <button onclick="VeletlenOldalhosszak()" type="button">Véletlen oldahosszak 10..100-ból</button>
+            <button onclick="AtfogoSzamitas()" type="button">Átfogó kiszámítása</button>
+        </fieldset>
+    </form>
+<script src="script.js"></script>
+</body>
+</html>
